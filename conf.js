@@ -17,7 +17,7 @@ jsproxy_config({
       lines: {
         // 主机:权重
         'still-field-ea7f.tiandi321.workers.dev': 1,
-     
+
       }
     },
     'demo-sg': {
@@ -80,7 +80,6 @@ jsproxy_config({
   inject_html: '<!-- custom html -->',
 
   /**
-  /**
    * URL 自定义处理（设计中）
    */
   url_handler: {
@@ -95,4 +94,3 @@ jsproxy_config({
     },
   }
 })
-
