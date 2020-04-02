@@ -15,6 +15,7 @@ jsproxy_config({
     'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
+         'still-field-ea7f.tiandi321.workers.dev': 1,
         // 主机:权重
   
       }
