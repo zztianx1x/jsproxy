@@ -17,7 +17,7 @@ jsproxy_config({
       lines: {
         // 主机:权重
         'still-field-ea7f.tiandi321.workers.dev': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
+     
       }
     },
     'demo-sg': {
@@ -83,13 +83,7 @@ jsproxy_config({
    * URL 自定义处理（设计中）
    */
   url_handler: {
-    'https://www.baidu.com/img/baidu_resultlogo@2.png': {
-      replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
-    },
-    'https://www.pornhub.com/': {
-      redir: 'https://php.net/'
-    },
-    'http://haha.com/': {
+
       content: 'Hello World'
     },
   }
